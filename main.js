@@ -118,7 +118,7 @@ function myMenuFunction(){
   
   /* ----- DOWNLOAD CV FUNCTION ----- */
   function downloadCV() {
-    var cvUrl = 'C:/Users/rahul/Downloads/CURRICULUM VITAE.docx.pdf';
+    var cvUrl = 'https://docs.google.com/document/d/1WzFImMWJRlv4Gr1tdRCa5qy-k5zJ4qpHIcKa5ku132Q/#heading=h.gjdgxs/CURRICULUMVITAE.docx.pdf';
     var link = document.createElement('a');
     link.download = 'CURRICULUM VITAE.docx.pdf';
     link.href = cvUrl;
